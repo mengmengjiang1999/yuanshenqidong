@@ -34,7 +34,7 @@ def getfinalprice(data:list, average:int):
     newdatas={}
     
     for item in data:
-        newdatas[item]=round(data[item]*average+0.005,2)
+        newdatas[item]=round(data[item]*average+0.004,2)
         
     return newdatas
 
